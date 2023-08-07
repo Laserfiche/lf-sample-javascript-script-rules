@@ -4,6 +4,7 @@
   "description": "sample to show the argument format script rule would feed into customized script",
   "type": "module",
   "module": "src/lf_arg_parser.js",
+  "main": "src/lf_arg_parser.js",
   "scripts": {
     "test": "npx mocha"
   },
@@ -11,12 +12,16 @@
     "scripting",
     "rule"
   ],
-  "author": "kern",
+  "author": "kern.ding",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.46.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.28.0",
     "mocha": "^10.2.0"
+  },
+  "directories": {
+    "lib": "src",
+    "test": "test"
   }
 }
