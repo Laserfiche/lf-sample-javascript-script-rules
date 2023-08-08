@@ -1,5 +1,5 @@
 {
-  "name": "argument-parser",
+  "name": "lf-argument-parser",
   "version": "0.1.0",
   "description": "sample to show the argument format script rule would feed into customized script",
   "type": "module",
