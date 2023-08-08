@@ -8,7 +8,7 @@ describe('lf-arg-parser', () => {
     /**
      * Test cases for the `getArgumentMap` function.
      * @type {Array.<{input: string[], expected: Object.<string, string>}>}
-     */    
+     */
     const testee = [
         { input: ['node.exe', './some/path/script.js', 'k1=v1'], expected: { k1: 'v1' } },
         { input: ['node.exe', './some/path/script.js', 'k1=v1', 'k2=v2'], expected: { k1: 'v1', k2: 'v2' } },

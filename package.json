@@ -1,6 +1,7 @@
 {
     "name": "lf-sample-javascript-script-rules",
-    "workspaces":[
-        "utility/argument-parser"
+    "workspaces": [
+        "utility/argument-parser",
+        "source/template"
     ]
 }
