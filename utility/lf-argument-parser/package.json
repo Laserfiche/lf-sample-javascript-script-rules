@@ -4,6 +4,7 @@
   "description": "sample to show the argument format script rule would feed into customized script",
   "type": "module",
   "module": "src/lf_arg_parser.js",
+  "main": "src/lf_arg_parser.js",
   "scripts": {
     "test": "npx mocha"
   },

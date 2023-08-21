@@ -1,5 +1,5 @@
 import assert from 'assert';
-import YourScriptMethod, { InputParameterName, OutputParameterName } from '../src/template.js';
+import YourScriptMethod from '../src/mirror.js';
 
 describe('YourScriptMethod', () => {
     const testCases = [
@@ -10,8 +10,8 @@ describe('YourScriptMethod', () => {
 
     testCases.forEach(({ input }) => {
         it(`should return the input parameter "${input}" as the output parameter`, async () => {
-            const inputs = { [InputParameterName]: input };
-            const expectedOutput = { [OutputParameterName]: input };
+            const inputs = { key: input };
+            const expectedOutput = { key: input };
 
             const actualOutput = await YourScriptMethod(inputs);
 

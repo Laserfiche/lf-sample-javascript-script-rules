@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "scripting rule (javascript) template",
   "type": "module",
-  "module": "src/index.js",
+  "module": "src/template.js",
+  "dependencies": {
+    "lf-argument-parser": "^0.1.0"
+  },
   "devDependencies": {
     "eslint": "^8.46.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -11,7 +14,11 @@
     "mocha": "^10.2.0"
   },
   "scripts": {
-    "test": "npx mocha"
+    "test": "npx mocha",
+    "start": "node ./bin/launcher.mjs"
+  },
+  "bin": {
+    "launcher": "./bin/launcher.mjs"
   },
   "keywords": [
     "scripting"
