@@ -5,7 +5,9 @@
   "type": "module",
   "module": "src/distance.js",
   "scripts": {
-    "test": "npx mocha"
+    "build": "npx rollup -c",
+    "test": "npx mocha",
+    "start": "node ./bin/launcher.mjs"
   },
   "keywords": [
     "zipcode"
@@ -13,6 +15,12 @@
   "author": "kern.ding",
   "license": "MIT",
   "dependencies": {
-    "zipcodes": "^8.0.0"
+    "zipcodes": "^8.0.0",
+    "lf-argument-parser": "^0.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "rollup": "^3.28.1"
   }
 }
