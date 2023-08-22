@@ -1,0 +1,18 @@
+{
+  "name": "distance-between-zipcodes",
+  "version": "0.1.0",
+  "description": "zip code distance",
+  "type": "module",
+  "module": "src/distance.js",
+  "scripts": {
+    "test": "npx mocha"
+  },
+  "keywords": [
+    "zipcode"
+  ],
+  "author": "kern.ding",
+  "license": "MIT",
+  "dependencies": {
+    "zipcodes": "^8.0.0"
+  }
+}

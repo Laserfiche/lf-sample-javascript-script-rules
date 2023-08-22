@@ -2,6 +2,7 @@
     "name": "lf-sample-javascript-script-rules",
     "workspaces": [
         "utility/lf-argument-parser",
-        "source/template"
+        "source/template",
+        "source/distance-between-zipcodes"
     ]
 }
