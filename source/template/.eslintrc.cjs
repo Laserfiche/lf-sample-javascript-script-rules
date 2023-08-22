@@ -21,6 +21,9 @@ module.exports = {
         ecmaVersion: 'latest',
         sourceType: 'module',
     },
+    ignorePatterns: [
+        '/dist/**'
+    ],
     rules: {
         indent: ['error', 4],
         'max-len': ['error', { ignoreComments: true, code: 180 }],
