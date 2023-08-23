@@ -29,7 +29,7 @@ key3:val3
 ```
 
 Any text write to stdout in a format {key}:{value} will be parsed as output parameter by remote agent worker. 
-e.g., in the sample command would produce a output parameter map `{ "key1": "val1", "key2": "val2", "key3": "val3" }`.
+e.g., this sample command would produce a output parameter map `{ "key1": "val1", "key2": "val2", "key3": "val3" }`.
 
 ## License
 

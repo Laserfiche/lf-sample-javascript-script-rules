@@ -4,5 +4,9 @@
         "utility/lf-argument-parser",
         "source/template",
         "source/distance-between-zipcodes"
-    ]
+    ],
+    "engines": {
+        "node": ">=20.0.0",
+        "npm": ">=9.0.0"
+    }
 }
