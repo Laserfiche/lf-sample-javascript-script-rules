@@ -3,6 +3,7 @@
  * @param {string[]} args - An array of strings representing the arguments passed to the script.
  * @returns {Object.<string, string>} An object representing the key-value pairs of the arguments.
  * @throws {Error} If the `args` argument is `null` or `undefined`.
+ * @example node script.js arg1=foo arg2=bar, will return { arg1: 'foo', arg2: 'bar' }
  */
 export default function getArgumentMap(args) {
     if (args == null) {
