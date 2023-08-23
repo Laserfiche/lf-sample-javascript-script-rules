@@ -35,4 +35,4 @@ This project is using [NPM workspaces](https://docs.npmjs.com/cli/v9/using-npm/w
 
 - In all the smaple packages, we are using ***rollup*** to bundle all the code (include internal and external dependencies) into a single file. This is not required, but it makes it easier to deploy the code to the remote agent.
 - You can also ***copy the folder*** of source code pacakge into remote agent and mannually install the dependencies using `npm install` command.
-- Remote agent only cares the target script file, and the it's the deployment step to make sure the target script is executable for the remote agent invocation environment.
+- Remote agent only cares the target script file, and it expects the deployment step to ensure the target script is executable for the during invocation time.
