@@ -16,13 +16,13 @@
     "mocha": "^10.2.0",
     "rollup": "^3.28.0"
   },
+  "bin": {
+    "echo": "bin/launcher.mjs"
+  },
   "scripts": {
     "build": "npx rollup -c",
     "test": "npx mocha",
     "start": "node ./bin/launcher.mjs"
-  },
-  "bin": {
-    "launcher": "./bin/launcher.mjs"
   },
   "keywords": [
     "scripting"
