@@ -9,11 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    strategy:
-      matrix:
-        configuration: [Debug, Release]
-
+  build-test:
     runs-on: ubuntu-latest
 
     steps:
