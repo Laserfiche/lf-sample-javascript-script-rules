@@ -6,7 +6,6 @@
         "source/distance-between-zipcodes"
     ],
     "engines": {
-        "node": ">=20.0.0",
-        "npm": ">=9.0.0"
+        "node": ">=16.0.0"
     }
 }
