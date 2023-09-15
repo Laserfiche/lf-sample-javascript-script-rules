@@ -2,7 +2,7 @@
 
 This project is a template for creating a Laserfiche Nodejs Rule script project. It contains a sample script that can be used as a starting point for creating your own script.
 
-## Deply script to your remote agent
+## Deploy script to your remote agent
 
 - Copy the content of the bundle output folder `\dist` to your remote agent folder 
   - e.g., `C:\Program Files\Laserfiche\Server\RemoteAgent\ScriptRunner\Nodejs\script`
