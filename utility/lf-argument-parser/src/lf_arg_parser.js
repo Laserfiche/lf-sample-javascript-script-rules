@@ -1,3 +1,8 @@
+/*
+ * Copyright (c) Laserfiche.
+ * Licensed under the MIT License. See LICENSE in the project root for license information.
+ */
+
 /**
  * Parses the arguments passed to the script.
  * @param {string[]} args - An array of strings representing the arguments passed to the script.
