@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Laserfiche.
+ */
+
 import assert from 'assert';
 import YourScriptMethod from '../src/mirror.js';
 

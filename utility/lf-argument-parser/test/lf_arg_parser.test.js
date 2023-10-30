@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Laserfiche.
+ */
+
 import assert from 'assert';
 import getArgumentMap from '../src/lf_arg_parser.js';
 

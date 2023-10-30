@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Laserfiche.
+ */
+
 /* eslint-disable no-restricted-syntax */
 /**
  * The main function for your script.

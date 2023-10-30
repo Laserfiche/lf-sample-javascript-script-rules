@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Laserfiche.
+ */
+
 import { lookup, distance } from 'zipcodes';
 
 /**

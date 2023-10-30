@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) Laserfiche.
+ */
+
 /**
  * Parses the arguments passed to the script.
  * @param {string[]} args - An array of strings representing the arguments passed to the script.

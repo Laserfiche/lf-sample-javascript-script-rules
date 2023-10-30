@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
+/*
+ * Copyright (c) Laserfiche.
+ */
+
 import getArgumentMap from 'lf-argument-parser';
 import distanceBetweenZipcode from '../src/distance.js';
 
