@@ -4,14 +4,15 @@ This project is a template for creating a Laserfiche Nodejs Rule script project.
 
 ## Deploy script to your remote agent
 
-- Copy the content of the bundle output folder `\dist` to your remote agent folder 
-  - e.g., `C:\Program Files\Laserfiche\Server\RemoteAgent\ScriptRunner\Nodejs\script`
+- Copy the contents of the bundle output folder `\dist` to the default script folder for Remote Worker 1:
+  - `C:\Program Files\Laserfiche\ProcessAutomationWorkerAgent\LFPALocalAgent\bin`
+- If the worker was installed in a different location, use the `bin` subfolder of that installation folder.
 
 ## Configure and test this script rule in your Laserfiche Cloud Account -> Process Automation -> Rules
 
 - Create a new rule
   - Select the script rule type: Nodejs
-  - Script location: `ProcessAutomationWorker\bin\Scripts\node\Template\template.js`
+  - Script location: `C:\Program Files\Laserfiche\ProcessAutomationWorkerAgent\LFPALocalAgent\bin\template.js`
   - Input:
     - Name1
     - Name2
